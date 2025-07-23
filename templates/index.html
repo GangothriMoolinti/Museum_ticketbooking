@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Musuem Booking</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body style="background-image: url(https://tse2.mm.bing.net/th/id/OIP.gOsAe5_7HH-yeM364jnCEwHaEK?pid=Api&P=0&h=180);">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Museum Tickets</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/book">Book Ticket</a></li>
+                <li class="nav-item"><a class="nav-link" href="/bookings">View Bookings</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="bg-primary text-white text-center py-5">
+    <h1>Welcome to Museum Booking</h1>
+    <p class="lead">Museums are not just about artifacts, they’re about stories that shape humanity.</p>
+    <a href="/book" class="btn btn-light mt-3">Book Now</a>
+</header>
+
+<section class="container my-5">
+    <h2 class="text-center mb-4">Tours</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.STguaMzKjeMTEP3Ew022kAHaE8?pid=Api&P=0&h=180" class="card-img-top" alt="Concert 1">
+                <div class="card-body">
+                    <h5 class="card-title">Art Tour</h5>
+                    <p class="card-text">Art enables us to find ourselves and lose ourselves at the same time.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.81j0GCWPyksU4EqiiZGt5QHaEK?pid=Api&P=0&h=180" class="card-img-top" alt="Concert 2">
+                <div class="card-body">
+                    <h5 class="card-title">Science Tour</h5>
+                    <p class="card-text">The science of today is the technology of tomorrow..</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.e13rxNcR0ZoF3lOD5M-a-gHaEK?pid=Api&P=0&h=180" class="card-img-top" alt="Concert 3">
+                <div class="card-body">
+                    <h5 class="card-title">History Tour</h5>
+                    <p class="card-text">History is who we are and why we are the way we are.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.IdTaABkm-xYbgRWuhBd2JgHaE8?pid=Api&P=0&h=180" class="card-img-top" alt="Concert 3">
+                <div class="card-body">
+                    <h5 class="card-title">Mixed Tour</h5>
+                    <p class="card-text">A museum tour is a journey through ideas, discovery, and imagination — all in one place.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-dark text-white text-center py-3">
+    &copy; 2025 Museum Booking System. All rights reserved.
+</footer>
+
+</body>
+</html>
